@@ -149,11 +149,14 @@
             // 
             // loginPassword
             // 
+            loginPassword.ForeColor = Color.Gray;
             loginPassword.Location = new Point(94, -3);
             loginPassword.Name = "loginPassword";
             loginPassword.Size = new Size(222, 23);
             loginPassword.TabIndex = 0;
             loginPassword.Text = "Contraseña";
+            loginPassword.Enter += loginPassword_Enter;
+            loginPassword.Leave += loginPassword_Leave;
             // 
             // panel4
             // 
