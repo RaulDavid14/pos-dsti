@@ -1,0 +1,45 @@
+﻿# Archivos de compilación
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Configuración local de VS
+.vs/
+
+# Archivos de depuración
+*.pdb
+
+# Archivos de paquetes NuGet
+packages/
+*.nupkg
+.nuget/
+
+# Archivos de publicación
+publish/
+
+# Configuración de Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Archivos temporales
+*.cache
+*.log
+
+# Archivos de Windows Forms diseñador
+*.resx
+!Properties/Resources.resx
+
+# Archivos de build de MSBuild
+*.dll
+*.exe
+
+# Otros archivos locales
+*.vspscc
+*.vssscc
